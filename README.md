@@ -101,10 +101,10 @@ Select option **7** to exit.
 
 | File | Description |
 |------|-------------|
-| `main.py` | Entry point — CLI menu and user interaction |
+| `main.py` | Entry point; provides CLI menu and user interaction |
 | `tracker.py` | `Habit` and `HabitsTracker` class definitions |
-| `storage.py` | SQLite database operations — save, load, initialise |
-| `analytics.py` | Functional analytics — streaks, consistency, analysis |
+| `storage.py` | SQLite database operations (save, load, delete, initialise) |
+| `analytics.py` | Functional analytics (streaks, consistency, analysis) |
 | `test.py` | Unit tests using Python's `unittest` framework |
 | `storage.db` | Auto-generated SQLite database file |
 
