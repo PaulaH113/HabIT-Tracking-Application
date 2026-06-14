@@ -111,20 +111,6 @@ Select option **7** to view habits ranked by missed periods over the last 30 day
 
 ---
 
-## Running the Tests
-
-To run the test suite:
-
-```bash
-python3 test.py
-```
-
-Expected output:.........
-Ran 9 tests in 0.000s
-OK
-
----
-
 ## Predefined Habits
 
 The following habits are loaded automatically on first launch:
@@ -137,9 +123,3 @@ The following habits are loaded automatically on first launch:
 | Run in the park | Weekly |
 | Meal prep | Weekly |
 | Cleaning and decluttering | Monthly |
-
----
-
-## Author
-
-HabIT was developed as part of a university project in Python programming.
