@@ -75,7 +75,7 @@ The habit will be saved to the database.
 3. Enter the name of the habit you completed
 4. If the habit is not found, the application will ask if you wish to add it as a new habit
 
-> **Perfect Day:** Type `perfect day` when prompted to mark all daily habits as complete in one go.
+**Perfect Day:** Type `perfect day` when prompted to mark all daily habits as complete in one go.
 
 ### Viewing Streaks
 
