@@ -2,7 +2,7 @@
 
 ## Overview
 
-HabIT is a command-line habit tracking application developed in Python. It allows users to create, track and analyse personal habits over time. The application is built around two core concepts: **habits** (regular activities the user wishes to reinforce) and **streaks** (consecutive periods in which a habit has been completed).
+HabIT is a command-line habit tracking application developed in Python. It allows users to create, track and analyse personal habits. The application is built around two core concepts: **habits** (regular activities the user wishes to reinforce) and **streaks** (consecutive periods in which a habit has been completed).
 
 The application follows a modular architecture, combining object-oriented programming for habit management with a functional approach for analytics, and SQLite for data persistence.
 
@@ -11,13 +11,13 @@ The application follows a modular architecture, combining object-oriented progra
 ## Requirements
 
 - Python 3.8 or higher
-- No external libraries required — HabIT uses only Python standard libraries
+- HabIT uses only Python standard libraries, no external libraries required
 
 ---
 
 ## Installation
 
-1. Clone or download the project folder to your local machine.
+1. Clone or download the project folder to your computer.
 2. Navigate to the project directory in your terminal:
 
 ```bash
@@ -52,14 +52,13 @@ On first launch, the application will automatically:
 Upon launch, the user is presented with the following menu:
 --- HabIT ---
 
-Add a habit
-Delete a habit
-Mark a habit as complete
-Show all habits
-Show streaks
-Show analytics
-Struggling habits last month
-Exit
+1.Add a habit
+2.Delete a habit
+3.Mark a habit as complete
+4.Show all habits
+5.Show streaks
+6.Show analytics
+7.Exit
 
 ### Creating a New Habit
 
@@ -67,7 +66,7 @@ Exit
 2. Enter the habit name (e.g. `Meditate`)
 3. Enter the periodicity — must be one of: `daily`, `weekly`, `monthly`, `yearly`
 
-The habit will be saved to the database and available immediately.
+The habit will be saved to the database.
 
 ### Completing a Habit
 
@@ -92,9 +91,9 @@ Select option **6** to view:
 - Habit needing most attention
 - Habits grouped by periodicity
 
-### Viewing Struggling Habits
+### Exit the Application
 
-Select option **7** to view habits ranked by missed periods over the last 30 days.
+Select option **7** to exit.
 
 ---
 
