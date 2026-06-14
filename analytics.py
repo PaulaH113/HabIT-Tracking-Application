@@ -1,5 +1,5 @@
 
-# This module uses the functional programming approach (base on plain functions) to analyse habit data, each function takes a habit or list of habits and returns useful information.
+# This module uses the functional programming approach to analyse habit data; each function takes a habit or list of habits and returns useful information.
 
 from datetime import datetime, timedelta 
 
