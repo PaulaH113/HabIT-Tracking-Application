@@ -12,7 +12,7 @@ The application follows a modular architecture, combining object-oriented progra
 ## Requirements
 
 - Python 3.8 or higher
-- HabIT uses only Python standard libraries, and no external libraries required
+- HabIT uses only Python standard libraries, and no external libraries required.
 
 ---
 
