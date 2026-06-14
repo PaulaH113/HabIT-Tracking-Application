@@ -43,7 +43,7 @@ python3 main.py
 On first launch, the application will automatically:
 - Create the SQLite database (`storage.db`)
 - Load a set of predefined habits
-- Generate 4 weeks of example tracking data (test fixture)
+- Generate 4 weeks of example tracking data
 
 ---
 
