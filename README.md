@@ -51,15 +51,14 @@ On first launch, the application will automatically:
 ## Using the Application
 
 Upon launch, the user is presented with the following menu:
---- HabIT ---
 
-1.Add a habit
-2.Delete a habit
-3.Mark a habit as complete
-4.Show all habits
-5.Show streaks
-6.Show analytics
-7.Exit
+1. Add a habit
+2. Delete a habit
+3. Mark a habit as complete
+4. Show all habits
+5. Show streaks
+6. Show analytics
+7. Exit
 
 ### Creating a New Habit
 
