@@ -1,4 +1,5 @@
-# HabIT — Habit Tracking Application
+# HabIT 
+A Habit Tracking Application
 
 ## Overview
 
