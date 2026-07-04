@@ -64,7 +64,7 @@ Upon launch, the user is presented with the following menu:
 
 1. Select option **1** from the main menu
 2. Enter the habit name (e.g. `Meditate`)
-3. Enter the periodicity — must be one of: `daily`, `weekly`, `monthly`, `yearly`
+3. Enter the periodicity (must be one of: `daily`, `weekly`, `monthly`, `yearly`)
 
 The habit will be saved to the database.
 
@@ -94,19 +94,6 @@ Select option **6** to view:
 ### Exit the Application
 
 Select option **7** to exit.
-
----
-
-## Project Structure
-
-| File | Description |
-|------|-------------|
-| `main.py` | Entry point; provides CLI menu and user interaction |
-| `tracker.py` | `Habit` and `HabitsTracker` class definitions |
-| `storage.py` | SQLite database operations (save, load, delete, initialise) |
-| `analytics.py` | Functional analytics (streaks, consistency, analysis) |
-| `test.py` | Unit tests using Python's `unittest` framework |
-| `storage.db` | Auto-generated SQLite database file |
 
 ---
 
