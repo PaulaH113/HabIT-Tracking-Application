@@ -1,24 +1,18 @@
 # HabIT 
-A Habit Tracking Application
 
-## Overview
+HabIT is a command-line habit tracking application developed in Python. It allows users to create, track and analyse personal habits. 
 
-HabIT is a command-line habit tracking application developed in Python. It allows users to create, track and analyse personal habits. The application is built around two core concepts: **habits** (regular activities the user wishes to reinforce) and **streaks** (consecutive periods in which a habit has been completed).
-
-The application follows a modular architecture, combining object-oriented programming for habit management with a functional approach for analytics, and SQLite for data persistence.
-
----
 
 ## Requirements
 
 - Python 3.8 or higher
-- HabIT uses only Python standard libraries, and no external libraries required.
+- HabIT uses only Python standard libraries, no external libraries required
 
----
 
 ## Installation
 
 1. Clone or download the project folder to your computer.
+   
 2. Navigate to the project directory in your terminal:
 
 ```bash
@@ -31,8 +25,6 @@ cd path/to/HabIT
 python3 --version
 ```
 
----
-
 ## Running the Application
 
 To start the application, run the following command from the project directory:
@@ -41,12 +33,7 @@ To start the application, run the following command from the project directory:
 python3 main.py
 ```
 
-On first launch, the application will automatically:
-- Create the SQLite database (`storage.db`)
-- Load a set of predefined habits
-- Generate 4 weeks of example tracking data
-
----
+On the first launch, the application will automatically create the database, load predefined habits and generate 4 weeks of test data.
 
 ## Using the Application
 
@@ -95,17 +82,14 @@ Select option **6** to view:
 
 Select option **7** to exit.
 
----
 
 ## Predefined Habits
 
-The following habits are loaded automatically on first launch:
+The Application comes with the following habits, that are loaded automatically on first launch:
 
-| Habit | Periodicity |
-|-------|-------------|
-| 20 min exercise | Daily |
-| Drink 2L of water | Daily |
-| Read 30 minutes | Daily |
-| Run in the park | Weekly |
-| Meal prep | Weekly |
-| Cleaning and decluttering | Monthly |
+-> 20 min exercise (Daily)
+-> Drink 2L of water (Daily)
+-> Read 30 minutes (Daily)
+-> Run in the park (Weekly)
+-> Meal prep (Weekly)
+-> Cleaning and decluttering (Monthly)
