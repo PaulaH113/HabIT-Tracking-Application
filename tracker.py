@@ -1,4 +1,4 @@
-# This module defines the two core classes, Habit and HabitsTracker, using object-oriented programming 
+# This module defines the two core classes: Habit and HabitsTracker. It uses the object-oriented programming paradigm
 
 from datetime import datetime
 
