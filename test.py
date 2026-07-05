@@ -1,7 +1,7 @@
 '''
 This module provides testing scenarios using test data.
 
-Things most important to test:
+What is tested:
 
  Does adding a habit work correctly?
  Does deleting a habit work correctly?
