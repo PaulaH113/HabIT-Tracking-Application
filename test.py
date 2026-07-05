@@ -40,6 +40,7 @@ class TestHabit(unittest.TestCase):
         self.assertEqual(len(tracker.habits), 1)
 
     # Test that a habit is deleted correctly
+
     def test_delete_habit(self):
         tracker = HabitsTracker()
         habit = Habit("Exercise", "daily")
@@ -48,6 +49,7 @@ class TestHabit(unittest.TestCase):
         self.assertEqual(len(tracker.habits), 0)
 
     # Test that deleting a habit that doesn't exist does nothing
+
     def test_delete_nonexistent_habit(self):
         tracker = HabitsTracker()
         habit = Habit("Exercise", "daily")
@@ -56,6 +58,7 @@ class TestHabit(unittest.TestCase):
         self.assertEqual(len(tracker.habits), 1)
 
     # Test that a misspelled habit name returns None
+
     def test_misspelled_habit(self):
         tracker = HabitsTracker()
         habit = Habit("Exercise", "daily")
@@ -66,12 +69,14 @@ class TestHabit(unittest.TestCase):
 class TestStreak(unittest.TestCase):
 
     # Test that streak is 0 with no completions
+ 
     def test_streak_no_completions(self):
         habit = Habit("Exercise", "daily")
         self.assertEqual(get_streak(habit), 0)
 
+    # Test that streak is 0 with no completions
+
     def test_streak_daily_consistent(self):
-        # Test that streak is 0 with no completions
         habit = Habit("Exercise", "daily")
         habit.completions = [
             datetime.now() - timedelta(days=3),
@@ -82,6 +87,7 @@ class TestStreak(unittest.TestCase):
         self.assertEqual(get_streak(habit), 4)
 
     # Test that streak resets after a missed day
+
     def test_streak_resets(self):
         habit = Habit("Exercise", "daily")
         habit.completions = [
@@ -92,6 +98,7 @@ class TestStreak(unittest.TestCase):
         self.assertEqual(get_streak(habit), 2)
 
     # Test that longest streak is tracked correctly
+
     def test_longest_streak(self):
         habit = Habit("Exercise", "daily")
         habit.completions = [
